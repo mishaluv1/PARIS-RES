@@ -2,11 +2,11 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl mb-4">Visit Us</h2>
-          <p className="text-gray-600">We'd love to serve you</p>
+          <p>We'd love to serve you</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
@@ -15,7 +15,7 @@ export function Contact() {
               <MapPin className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="text-xl mb-2">Location</h3>
-                <p className="text-gray-600">2nd Main, near Aane Park<br />Ashok Nagar, Mandya<br />Karnataka 571401, India</p>
+                <p className="text-gray-400">2nd Main, near Aane Park<br />Ashok Nagar, Mandya<br />Karnataka 571401, India</p>
               </div>
             </div>
 
@@ -23,7 +23,7 @@ export function Contact() {
               <Phone className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="text-xl mb-2">Phone</h3>
-                <p className="text-gray-600">+91 82324 60758<br />+91 93800 51400</p>
+                <p className="text-gray-400">+91 82324 60758<br />+91 93800 51400</p>
               </div>
             </div>
 
@@ -31,7 +31,7 @@ export function Contact() {
               <Mail className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="text-xl mb-2">Email</h3>
-                <p className="text-gray-600">info@parisrestaurant.com</p>
+                <p className="text-gray-400">info@parisrestaurant.com</p>
               </div>
             </div>
 
@@ -39,7 +39,7 @@ export function Contact() {
               <Clock className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="text-xl mb-2">Hours</h3>
-                <p className="text-gray-600">
+                <p className="text-gray-400">
                   Monday - Sunday<br />
                   11:00 AM - 3:00 PM<br />
                   6:00 PM - 10:30 PM
@@ -140,7 +140,7 @@ export function Contact() {
         </div>
       </div>
        <div className="mt-16 text-center bg-orange-50 rounded-lg p-8">
-          <h3 className="text-2xl mb-4">Free Delivery Available!</h3>
+          <h3 className="text-2xl mb-4 text-gray-700">Free Delivery Available!</h3>
           <p className="text-gray-700 mb-2">Order online through Zomato</p>
           <p className="text-gray-600">Call us: 08232 460 758 | 093 800 51400</p>
         </div>

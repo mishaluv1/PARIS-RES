@@ -24,9 +24,9 @@ export function Gallery() {
           <p className="text-gray-600">Step inside our elegant dining space</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6 ">
           {galleryImages.map((image, index) => (
-            <div key={index} className="relative h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
+            <div key={index} className="relative h-80 overflow-hidden rounded-lg shadow-md shadow-gray hover:shadow-xl transition-shadow">
               <ImageWithFallback
                 src={image.url}
                 alt={image.alt}
