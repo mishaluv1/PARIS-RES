@@ -8,7 +8,7 @@ export function Hero() {
         <div className="w-full h-full">
   {/* Mobile / small screens */}
   <img
-    src="https://www.image2url.com/r2/default/images/1777304576070-4acc1f94-9329-44db-b6d6-74824e3ef867.png"
+    src="https://www.image2url.com/r2/default/images/1777308906745-ff5f4ef2-7a05-43dc-b2af-fcce2e4f1b42.jpeg"
     alt="Restaurant"
     className="block md:hidden w-full h-full object-cover"
   />
